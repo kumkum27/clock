@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+    background: url(bg.png) no-repeat;
+    background-size: 100%;
+}
+
+/* body{
+    background: url(bg.png) no-repeat;
+    background-size: 100%;
+} */
+
+#container{
+    background: url(final.png) no-repeat;
+    /* background-color: aqua; */
+    /* border: 2px black solid; */
+    height: 600px;
+    width: 600px;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+}
+
+#hour , #minute , #second{
+    height: 82px;
+    width: 11px;
+    background-color: black;
+    position:absolute;
+}
+
+#hour{
+    height: 24%;
+    width: 1.5%;
+    left: 48.8%;
+    bottom: 50.1%;
+    opacity: 0.7;
+    transform-origin: bottom;
+}
+
+#minute{
+    height: 27%;
+    width: 1.5%;
+    left: 49.5%;
+    bottom: 49.6%;
+    opacity: 0.7;
+    transform-origin: bottom;
+}
+
+#second{
+    height: 31%;
+    width: 1.5%;
+    left: 49.6%;
+    bottom: 49.75%;
+    opacity: 0.7;
+    transform-origin: bottom;
+}
